@@ -30,6 +30,7 @@ Products That Use This Example Code
 * [COM-11759](https://www.sparkfun.com/products/11759) - IR Controller
 * [KIT-13235](https://www.sparkfun.com/products/13235) - IR Control Kit
 * [SEN-10266](https://www.sparkfun.com/products/10266) - IR Receiver Diode - TSOP38238
+* [SEN-10266 (Retired)](https://www.sparkfun.com/products/10266) - IR Receiver Breakout - TSOP85*
 * [COM-09349](https://www.sparkfun.com/products/9349) - LED - Infrared 950nm
 
 Version History
