@@ -20,7 +20,7 @@ Repository Contents
 
 Documentation
 --------------
-* [Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library) - Basic information on how to install an Arduino library.
+* **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
 * **[Library](https://github.com/z3t0/Arduino-IRremote)** - Library library for the IR Control Kit.
 * **[IR Communication](https://learn.sparkfun.com/tutorials/ir-communication)** - General tutorial for IR communication.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/ir-control-kit-hookup-guide)** - Basic hookup guide for the IR Control Kit
