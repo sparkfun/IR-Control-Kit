@@ -35,6 +35,13 @@
    should actually have 0x10EF in front of it. Find these codes
    by running the IRrecvDump example sketch included with
    the IRremote library.*/
+
+//------------------------------------------------------------
+//Codes for Infrared Remote Control
+//COM-11759 https://www.sparkfun.com/products/retired/11759
+//Note: Uncomment out this section if you are using this w/ the older remote.
+
+/*
 const uint16_t BUTTON_POWER = 0xD827; // i.e. 0x10EFD827
 const uint16_t BUTTON_A = 0xF807;
 const uint16_t BUTTON_B = 0x7887;
@@ -44,6 +51,23 @@ const uint16_t BUTTON_DOWN = 0x00FF;
 const uint16_t BUTTON_LEFT = 0x10EF;
 const uint16_t BUTTON_RIGHT = 0x807F;
 const uint16_t BUTTON_CIRCLE = 0x20DF;
+*/
+//------------------------------------------------------------
+//Codes for Infrared Remote Control
+//COM-14865 https://www.sparkfun.com/products/14865
+//Note: Comment out this section if you are using this w/ the older remote.
+
+const uint16_t BUTTON_POWER = 0x629D;
+const uint16_t BUTTON_A = 0x22DD;
+const uint16_t BUTTON_B = 0x02FD;
+const uint16_t BUTTON_C = 0xC23D;
+const uint16_t BUTTON_UP = 0x9867;
+const uint16_t BUTTON_DOWN = 0x38C7;
+const uint16_t BUTTON_LEFT = 0x30CF;
+const uint16_t BUTTON_RIGHT = 0x7A85;
+const uint16_t BUTTON_CIRCLE = 0x18E7;
+
+//------------------------------------------------------------
 
 /* Connect the output of the IR receiver diode to pin 11. */
 int RECV_PIN = 11;
@@ -100,40 +124,40 @@ void loop()
     switch (resultCode)
     {
       case BUTTON_POWER:
-        Serial.println("Power");
+        Serial.println("Power, Turn LED ON/OFF");
         if (ledEnable) ledEnable = 0;
         else ledEnable = 1; // Flip ledEnable
         break;
       case BUTTON_A:
-        Serial.println("A");
+        Serial.println("A, Red");
         activeChannel = RED;
         break;
       case BUTTON_B:
-        Serial.println("B");
+        Serial.println("B, Green");
         activeChannel = GREEN;
         break;
       case BUTTON_C:
-        Serial.println("C");
+        Serial.println("C, Blue");
         activeChannel = BLUE;
         break;
       case BUTTON_UP:
-        Serial.println("Up");
+        Serial.println("Up, Increment brightness by 1");
         rgbValues[activeChannel]++; // Increment brightness
         break;
       case BUTTON_DOWN:
-        Serial.println("Down");
+        Serial.println("Down, Decrement brightness by 1");
         rgbValues[activeChannel]--; // Decrement brightness
         break;
       case BUTTON_LEFT:
-        Serial.println("Left");
+        Serial.println("Left, Min brightness (off)");
         rgbValues[activeChannel] = 0; // Min brightness (off)
         break;
       case BUTTON_RIGHT:
-        Serial.println("Right");
+        Serial.println("Right, Max brightness");
         rgbValues[activeChannel] =  255; // Max brightness
         break;
       case BUTTON_CIRCLE:
-        Serial.println("Circle");
+        Serial.println("Circle, Medium Brightness");
         rgbValues[activeChannel] = 127; // Medium brightness
         break;
       default:
