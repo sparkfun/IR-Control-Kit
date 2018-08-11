@@ -7,7 +7,7 @@ SparkFun IR Control Kit
    <td><a href="https://cdn.sparkfun.com/assets/parts/1/0/4/1/3/13235-01.jpg"><img src="https://cdn.sparkfun.com/assets/parts/1/0/4/1/3/13235-01.jpg" alt="Infrared Remote Control Kit"></a></td>
   </tr>
   <tr align="center">
-    <td>Infrared Remote Control[ <a href="https://www.sparkfun.com/products/11759">COM-11759</a>]</td>
+    <td>Infrared Remote Control [<a href="https://www.sparkfun.com/products/11759">COM-11759</a>]</td>
     <td>Infrared Remote Control Kit [<a href="https://www.sparkfun.com/products/13235">KIT-13235</a>]</td>
   </tr>
 </table>
