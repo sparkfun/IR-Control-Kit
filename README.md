@@ -33,7 +33,7 @@ Products That Use This Example Code
 
 Version History
 ---------------
-* [v1.0]() - Initial release
+* [v1.0](https://github.com/sparkfun/IR-Control-Kit/releases/tag/v1.0) - Initial release
 
 License Information
 -------------------
