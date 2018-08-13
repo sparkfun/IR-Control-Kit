@@ -3,11 +3,11 @@ SparkFun IR Control Kit
 
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
-   <td><a href="https://cdn.sparkfun.com/assets/parts/7/9/8/6/11759-01.jpg"><img src="https://cdn.sparkfun.com/assets/parts/7/9/8/6/11759-01.jpg" alt="Infrared Remote Control"></a></td>
+   <td><a href="https://cdn.sparkfun.com/assets/parts/1/3/1/4/0/14865-Infrared_Remote_Control-01.jpg"><img src="https://cdn.sparkfun.com/assets/parts/1/3/1/4/0/14865-Infrared_Remote_Control-01.jpg" alt="Infrared Remote Control"></a></td>
    <td><a href="https://cdn.sparkfun.com/assets/parts/1/0/4/1/3/13235-01.jpg"><img src="https://cdn.sparkfun.com/assets/parts/1/0/4/1/3/13235-01.jpg" alt="Infrared Remote Control Kit"></a></td>
   </tr>
   <tr align="center">
-    <td>Infrared Remote Control [<a href="https://www.sparkfun.com/products/11759">COM-11759</a>]</td>
+    <td>Infrared Remote Control [<a href="https://www.sparkfun.com/products/14865">COM-14865</a>]</td>
     <td>Infrared Remote Control Kit [<a href="https://www.sparkfun.com/products/13235">KIT-13235</a>]</td>
   </tr>
 </table>
@@ -27,7 +27,8 @@ Documentation
 
 Products That Use This Example Code
 ----------------
-* [COM-11759](https://www.sparkfun.com/products/11759) - IR Controller
+* [COM-14865](https://www.sparkfun.com/products/14865) - IR Controller
+* *[COM-11759 (Retired)](https://www.sparkfun.com/products/11759) - IR Controller*
 * [KIT-13235](https://www.sparkfun.com/products/13235) - IR Control Kit
 * [SEN-10266](https://www.sparkfun.com/products/10266) - IR Receiver Diode - TSOP38238
 * *[SEN-10266 (Retired)](https://www.sparkfun.com/products/10266) - IR Receiver Breakout - TSOP85*
